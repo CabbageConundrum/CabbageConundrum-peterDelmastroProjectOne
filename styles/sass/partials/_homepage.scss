@@ -1,4 +1,30 @@
 h1{
-    font-size: 30px;
-    color: blue;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.85rem;
+    letter-spacing: 0.9;
 }
+
+.articleContainer {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+}
+
+.headline{
+    border: 1px solid blue;
+    padding: 10px;
+}
+
+.facts{
+    display: flex;
+    border: 1px solid blue;
+    border-bottom: 1px solid black;
+}
+
+.details ul li{
+    display: inline;
+   
+}
+
+
