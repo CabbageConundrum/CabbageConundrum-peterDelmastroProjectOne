@@ -311,6 +311,70 @@ h1 {
   border-bottom: 1px solid black;
 }
 
-.details ul li {
+.author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+th {
+  text-align: left;
+  font-family: 'montserrat', sans-serif;
+}
+
+.articleMain {
+  border: 1px solid blue;
+}
+
+span {
+  font-weight: bold;
+}
+
+.share {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid blue;
+}
+
+.share li {
   display: inline;
+}
+
+.relatedPosts {
+  border: 2px solid blue;
+}
+
+.relatedHeadline {
+  border: 1px solid red;
+}
+
+.relatedImages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid red;
+}
+
+.readHeadline {
+  border: 2px solid blue;
+}
+
+.readMain {
+  border: 2px solid blue;
+}
+
+.readComment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 2px solid blue;
+}
+
+.imgContainer {
+  border: 2px solid blue;
+}
+
+.textContainer {
+  border: 2px solid blue;
 }

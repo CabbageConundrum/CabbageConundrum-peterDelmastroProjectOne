@@ -22,9 +22,72 @@ h1{
     border-bottom: 1px solid black;
 }
 
-.details ul li{
-    display: inline;
-   
+.author {
+    display: flex;
+    
 }
 
+th{
+    text-align: left;
+    font-family: 'montserrat', sans-serif;
+}
 
+.articleMain {
+    border: 1px solid blue;
+}
+
+span{
+    font-weight: bold;
+}
+
+.share{
+    display: flex;
+    border: 1px solid blue;
+}
+
+.share li{
+    display: inline;
+}
+
+.relatedPosts{
+    border: 2px solid blue;
+}
+
+.relatedContainer{
+  
+    
+}
+
+.relatedHeadline{
+    border: 1px solid red;
+}
+
+.relatedImages{
+    display: flex;
+    border: 1px solid red;
+}
+.readComments{
+
+}
+.readContainer{
+
+}
+    .readHeadline{
+        border: 2px solid blue;
+    }
+    .readMain{
+        border: 2px solid blue;
+    }
+       .readComment
+       {
+           display: flex;
+        border: 2px solid blue;
+       }
+       .imgContainer{
+        border: 2px solid blue;
+       }
+               .textContainer{
+                border: 2px solid blue;
+               }
+              
+          
