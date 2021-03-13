@@ -378,3 +378,21 @@ span {
 .textContainer {
   border: 2px solid blue;
 }
+
+input {
+  border: hidden;
+}
+
+input:focus,
+input:active {
+  outline: none;
+  border-color: transparent;
+  border-bottom: 1px solid grey;
+}
+
+button {
+  outline: none;
+  border-color: transparent;
+  border-bottom: 1px solid grey;
+  background-color: white;
+}
