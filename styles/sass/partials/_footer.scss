@@ -1,0 +1,40 @@
+
+
+footer{
+    background: #333333;
+    color: white;
+}
+
+.footerContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 0;
+}
+
+
+footer h3{
+    text-transform: uppercase;
+    font-weight:normal;
+}
+
+.footerRecent ul{
+    list-style-type:disc;
+}
+
+
+.footerRecent h3{
+    text-align: center;
+}
+
+.footerSubscribe h3{
+    text-align: right;
+}
+
+
+footer .logo{
+    text-transform: uppercase;
+    padding: 60px 0;
+    text-align: center;
+    border-top: 1px solid grey;
+ 
+}

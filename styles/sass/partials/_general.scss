@@ -6,6 +6,7 @@ body {
     font-family: 'opensans', sans-serif;
     font-size: 0.7rem;
     letter-spacing: 0.3px;
+    line-height: 24px;
 }
 
 h1,
@@ -15,8 +16,14 @@ h2{
     padding: 0;
 }
 
+h1,
+h2{
+    text-transform: uppercase;
+}
+
 ul{
     list-style-type: none;
+    padding: 0;
 }
 
 img {
@@ -30,6 +37,11 @@ a{
 
 .wrapper{
     max-width: 1200px;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
+}
+
+nav li{
+font-size: 0.7rem;
+letter-spacing: 0.3px;
 }
