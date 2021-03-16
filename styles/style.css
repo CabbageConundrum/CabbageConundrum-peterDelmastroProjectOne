@@ -299,6 +299,10 @@ header {
   background-position: center;
 }
 
+.contact header {
+  height: 20vh;
+}
+
 nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -348,6 +352,13 @@ h1 {
       -ms-flex-direction: column;
           flex-direction: column;
   border: 2px solid red;
+}
+
+.index header {
+  background: url("../images/blog-1.jpeg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
 }
 
 .headline {
@@ -568,6 +579,10 @@ footer h3 {
 
 .footerSubscribe h3 {
   text-align: right;
+}
+
+.footerContact i {
+  padding-right: 1vw;
 }
 
 footer .logo {
