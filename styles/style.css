@@ -502,7 +502,6 @@ nav ul {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  max-height: 100%;
 }
 
 .theTeamImages .textContainer {
@@ -515,7 +514,65 @@ nav ul {
 
 .theTeamImages .imgContainer {
   margin: 10px;
-  width: 10px;
+  width: 15vw;
+}
+
+.work {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 2px solid blue;
+  width: 15vw;
+  margin: 10px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.homeDropline {
+  height: 80vh;
+}
+
+.homeDropline .flexContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
+.droplineLeft {
+  background-color: #C3DAB7;
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.droplineLeft .textContainer {
+  text-align: center;
+  width: 50%;
+}
+
+.button {
+  display: inline-block;
+  background-color: #F6F6F6;
+  padding: 20px;
+  width: 50%;
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+.droplineRight {
+  background-image: url("../images/home-10.jpeg");
+  width: 50%;
 }
 
 h1 {
@@ -619,7 +676,6 @@ span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border: 1px solid blue;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -654,10 +710,6 @@ span {
 
 .readHeadline {
   padding: 30px 0;
-  border: 2px solid blue;
-}
-
-.readMain {
   border: 2px solid blue;
 }
 
@@ -833,7 +885,9 @@ footer h3 {
   text-align: center;
 }
 
-.footerSubscribe h3 {
+.footerSubscribe h3,
+.footerSubscribe p,
+.footerSubscribe form {
   text-align: right;
 }
 

@@ -87,7 +87,7 @@ span{
 
 .share{
     display: flex;
-    border: 1px solid blue;
+    
     align-items: center;
 }
 
@@ -117,12 +117,6 @@ span{
     justify-content: space-between;
     
 }
-.readComments{
-
-}
-.readContainer{
-
-}
 
 .readComment .textContainer{
     margin-left: 35px;
@@ -133,9 +127,7 @@ span{
         padding: 30px 0;
         border: 2px solid blue;
     }
-    .readMain{
-        border: 2px solid blue;
-    }
+
        .readComment
        {
            display: flex;
@@ -152,10 +144,7 @@ span{
             border-bottom: 1px solid lightgray;
        }
 
-       form{
-          
-       }
-
+   
        .personalInfoForm{
          
         padding: 20px 0;

@@ -130,7 +130,7 @@ width: 55%;
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    max-height: 100%;
+ 
     
 }
 
@@ -147,20 +147,59 @@ width: 55%;
 
 .theTeamImages .imgContainer{
     margin: 10px;
-    width: 10px;
+    width: 15vw;
+ 
 }
 
-.theTeamImages img{
-   
-
+.work{
+    display: flex;
+    border: 2px solid blue;  
+    width: 15vw;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
 }
 
 .homeDropline{
-
+    height: 80vh;
 }
+
+.homeDropline .flexContainer{
+display: flex;
+height: 100%;
+}
+
+
 .droplineLeft{
-
+    background-color: #C3DAB7;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.droplineRight{
 
+.droplineLeft .textContainer{
+ 
+   
+    text-align: center;
+    width: 50%;
+ 
+}
+
+
+
+.button {
+display: inline-block;
+    background-color: #F6F6F6;
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+.droplineRight{
+    background-image: url("../images/home-10.jpeg");
+    width: 50%;
+    
 }
