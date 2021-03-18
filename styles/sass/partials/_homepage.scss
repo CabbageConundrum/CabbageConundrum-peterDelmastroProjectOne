@@ -8,56 +8,79 @@
 }
 
 .homeBranding{
+    display: flex;
+    align-items: center;
     background-color: #C3DAB7;
     height: 65vh;
+    justify-content: center;
 }
 
 .homeBranding .flexContainer{
     display: flex;
-    
+    flex-direction: column;
+ 
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   
 
 }
 .homeBranding .imageContainer{
+    display: flex;
 
+    justify-content: center;
 }
+
+.homeBranding img{
+    height: 200px;
+   
+}
+
+
+
 .stamp{
 
 }
+
+.stamp img{
+    height: 165px;
+    
+position: absolute;
+left: 0;
+top: 0;
+right: 0;
+bottom: 0;
+}
+
 .homeBranding .textContainer{
-
+    display: flex;
+    text-align: center;
+ 
 }
-.branding{
 
-}
-.design{
-
-}
 .homeTurnstile {
     height: 65vh;
     display: flex;
-    border: 2px solid red;
+
     justify-content: center;
 }
 .homeTurnstile .flexContainer{
     display: flex;
 align-items: center;
 justify-content: center;
-border: 2px solid blue;
+
 flex-direction: column;
 width: 55%;
 }
-.homeTurnstile .imageContainer{
-    
-    border: 2px solid red;
-}
+
 .homeTurnstile img{
     border-radius: 50%;
-    border: 2px solid red;
+
 }
 .homeTurnstile .textContainer{
     flex-wrap: wrap;
     display: flex;
-    border: 2px solid red;
+   
     text-align: center;
 }
 .homeIcons{
@@ -65,19 +88,22 @@ width: 55%;
     display: flex;
     justify-content: end;
     height: 80vh;
-    border: 2px solid purple;
+ 
+    align-items: center;
 }
 
 .iconsContainer{
     display: flex;
     justify-content: flex-end;
-    border: 2px solid blue;
+
     max-height: 100%;
+   
+  
 }
 
 .homeIcons .flexContainer{
     display: flex;
-    border: 2px solid red;
+
     width: 50%;
     flex-wrap: wrap;
     height: 80%;
@@ -85,48 +111,58 @@ width: 55%;
 
 }
 
+.homeBranding{
+
+}
+
+.iconsContainer i{
+    padding: 1rem;
+}
+
+.iconsContainer h3{
+    margin: 0;
+}
+
+
 .iconFeature{
     display: flex;
-    border: 2px solid blue;
-    width: 50%;
  
+    width: 50%;
+    height: 155px;
     justify-content: center;
     align-items: center;
 }
 .homeIcon i{
     font-size: 2rem;
-    border: 2px solid red;
+
 }
 
 .iconFeature .textContainer{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    border: 2px solid red;
+  
 }
 
 
-.homeTeam{
-    border: 2px solid purple;
-}
 
 .homeTeam .flexContainer{
     display: flex;
-    border: 2px solid red;
+  
    margin: 80px 0;
  
     flex-direction: column;
 }
 
 .teamTitle{
-    border: 2px solid blue;
+ 
     text-align: center;
  
     margin: 20px;
 }
 
 .theTeamImages{
-    border: 2px solid blue;
+
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
@@ -138,7 +174,7 @@ width: 55%;
 
 .theTeamImages .textContainer{
     width:50%;
-    border: 2px solid red;
+   
     padding: 20px;
     margin: 10px;
     background-color: lightgrey;
@@ -153,7 +189,7 @@ width: 55%;
 
 .work{
     display: flex;
-    border: 2px solid blue;  
+
     width: 15vw;
     margin: 10px;
     text-align: center;
@@ -179,12 +215,9 @@ height: 100%;
     justify-content: center;
 }
 
-.droplineLeft .textContainer{
- 
-   
+.droplineLeft .textContainer{   
     text-align: center;
     width: 50%;
- 
 }
 
 
@@ -193,7 +226,7 @@ height: 100%;
 display: inline-block;
     background-color: #F6F6F6;
     padding: 20px;
-    width: 50%;
+ 
     text-align: center;
     font-size: 0.7rem;
 }

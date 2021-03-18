@@ -293,7 +293,6 @@ a {
   max-width: 1200px;
   width: 80%;
   margin: 0 auto;
-  border: 2px solid green;
 }
 
 nav li {
@@ -316,7 +315,6 @@ nav {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 10px 40px;
-  border: 1px solid red;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -333,11 +331,6 @@ nav ul li {
   font-weight: 600;
 }
 
-s
-nav ul {
-  border: 1px solid blue;
-}
-
 .home {
   background-image: url("../images/home-1.jpeg");
   background-size: cover;
@@ -346,14 +339,63 @@ nav ul {
 }
 
 .homeBranding {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #C3DAB7;
   height: 65vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .homeBranding .flexContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.homeBranding .imageContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.homeBranding img {
+  height: 200px;
+}
+
+.stamp img {
+  height: 165px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.homeBranding .textContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
 }
 
 .homeTurnstile {
@@ -361,7 +403,6 @@ nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border: 2px solid red;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -377,7 +418,6 @@ nav ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border: 2px solid blue;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -385,13 +425,8 @@ nav ul {
   width: 55%;
 }
 
-.homeTurnstile .imageContainer {
-  border: 2px solid red;
-}
-
 .homeTurnstile img {
   border-radius: 50%;
-  border: 2px solid red;
 }
 
 .homeTurnstile .textContainer {
@@ -400,7 +435,6 @@ nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border: 2px solid red;
   text-align: center;
 }
 
@@ -413,7 +447,9 @@ nav ul {
       -ms-flex-pack: end;
           justify-content: end;
   height: 80vh;
-  border: 2px solid purple;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .iconsContainer {
@@ -423,7 +459,6 @@ nav ul {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  border: 2px solid blue;
   max-height: 100%;
 }
 
@@ -431,19 +466,26 @@ nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border: 2px solid red;
   width: 50%;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   height: 80%;
 }
 
+.iconsContainer i {
+  padding: 1rem;
+}
+
+.iconsContainer h3 {
+  margin: 0;
+}
+
 .iconFeature {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border: 2px solid blue;
   width: 50%;
+  height: 155px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -454,7 +496,6 @@ nav ul {
 
 .homeIcon i {
   font-size: 2rem;
-  border: 2px solid red;
 }
 
 .iconFeature .textContainer {
@@ -467,18 +508,12 @@ nav ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border: 2px solid red;
-}
-
-.homeTeam {
-  border: 2px solid purple;
 }
 
 .homeTeam .flexContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border: 2px solid red;
   margin: 80px 0;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -487,13 +522,11 @@ nav ul {
 }
 
 .teamTitle {
-  border: 2px solid blue;
   text-align: center;
   margin: 20px;
 }
 
 .theTeamImages {
-  border: 2px solid blue;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -506,7 +539,6 @@ nav ul {
 
 .theTeamImages .textContainer {
   width: 50%;
-  border: 2px solid red;
   padding: 20px;
   margin: 10px;
   background-color: lightgrey;
@@ -521,7 +553,6 @@ nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border: 2px solid blue;
   width: 15vw;
   margin: 10px;
   text-align: center;
@@ -565,7 +596,6 @@ nav ul {
   display: inline-block;
   background-color: #F6F6F6;
   padding: 20px;
-  width: 50%;
   text-align: center;
   font-size: 0.7rem;
 }
@@ -594,7 +624,6 @@ h1 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border: 2px solid red;
 }
 
 .blogheader {
@@ -602,10 +631,6 @@ h1 {
   height: 100vh;
   background-size: cover;
   background-position: center;
-}
-
-.headline {
-  border: 1px solid blue;
 }
 
 .authorImage img {
@@ -627,7 +652,6 @@ h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border: 1px solid blue;
   border-bottom: 1px solid black;
   padding: 35px 0;
   -webkit-box-pack: justify;
@@ -664,10 +688,6 @@ td {
   padding-right: 80px;
 }
 
-.articleMain {
-  border: 1px solid blue;
-}
-
 span {
   font-weight: bold;
 }
@@ -685,12 +705,7 @@ span {
   display: inline;
 }
 
-.relatedPosts {
-  border: 2px solid blue;
-}
-
 .relatedHeadline {
-  border: 1px solid red;
   padding: 40px 0;
 }
 
@@ -698,7 +713,6 @@ span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border: 1px solid red;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -710,19 +724,13 @@ span {
 
 .readHeadline {
   padding: 30px 0;
-  border: 2px solid blue;
 }
 
 .readComment {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border: 2px solid blue;
   line-height: 18px;
-}
-
-.imgContainer {
-  border: 2px solid blue;
 }
 
 .postHeadline {
@@ -744,11 +752,6 @@ input {
   margin-right: 2vw;
   padding-right: 11vw;
   border-bottom: 1px transparent lightgray;
-}
-
-.readComment .textContainer {
-  background: #F6F6F6;
-  border: 2px solid blue;
 }
 
 input {
@@ -877,6 +880,10 @@ footer h3 {
   font-weight: normal;
 }
 
+.footerRecent {
+  margin: 0 30px;
+}
+
 .footerRecent ul {
   list-style-type: disc;
 }
@@ -891,6 +898,35 @@ footer h3 {
   text-align: right;
 }
 
+.footerSubscribe input {
+  text-indent: 1rem;
+  height: 40px;
+  margin: 0;
+}
+
+.footerSubscribe form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footerSubscribe i {
+  background-color: #C3DAB7;
+  color: black;
+  font-size: 1rem;
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .footerContact i {
   padding-right: 1vw;
 }
@@ -900,4 +936,91 @@ footer .logo {
   padding: 60px 0;
   text-align: center;
   border-top: 1px solid grey;
+}
+
+@media (max-width: 1200px) {
+  .iconsContainer .flexContainer {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  nav ul li {
+    display: block;
+  }
+}
+
+@media (max-width: 480px) {
+  nav {
+    height: 70vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .homeTurnstile {
+    height: 100vh;
+  }
+  .homeIcons {
+    height: 300vh;
+  }
+  .iconFeature {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 80px;
+    text-align: center;
+  }
+  .homeIcons .flexContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .homeTeam .theTeamImages {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .homeTeam .imgContainer {
+    width: 100%;
+  }
+  .homeDropline {
+    height: 150vh;
+  }
+  .droplineLeft {
+    width: 100%;
+  }
+  .droplineRight {
+    width: 0;
+  }
+  .footerContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: left;
+        -ms-flex-align: left;
+            align-items: left;
+    text-align: left;
+  }
+  .footerSubscribe p,
+  .footerSubscribe h3 {
+    text-align: left;
+  }
 }

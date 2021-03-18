@@ -1,0 +1,79 @@
+@media (max-width: 1200px) {
+    .iconsContainer .flexContainer{
+        width: 100%;
+    }
+}
+
+@media(max-width: 940px){
+
+}
+
+@media(max-width: 768px){
+ nav ul li{
+    display: block;
+ }
+}
+
+
+@media(max-width: 480px){
+nav{
+    height: 70vh;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+    .homeTurnstile{
+        height: 100vh;
+    }
+
+    .homeIcons{
+        height: 300vh;
+    }
+
+    .iconFeature{
+        flex-direction: column;
+        margin: 80px;
+        text-align: center;
+    }
+
+    .homeIcons .flexContainer{
+        flex-direction: column;
+        align-items: center;
+       
+    }
+
+    .homeTeam .theTeamImages{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        text-align: center;
+       
+    }
+
+    .homeTeam .imgContainer{
+       width: 100%;
+    }
+
+    .homeDropline{
+        height:150vh;
+    }
+
+    .droplineLeft{
+        width: 100%;
+    }
+        .droplineRight{
+            width: 0;
+        }   
+
+        .footerContainer{
+            flex-direction: column;
+            align-items: left;
+            text-align: left;
+        }
+
+        .footerSubscribe p,
+        .footerSubscribe h3{
+text-align: left;
+        }
+}

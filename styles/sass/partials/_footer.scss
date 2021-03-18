@@ -17,6 +17,10 @@ footer h3{
     font-weight:normal;
 }
 
+.footerRecent{
+    margin: 0 30px;
+}
+
 .footerRecent ul{
     list-style-type:disc;
 }
@@ -26,12 +30,36 @@ footer h3{
     text-align: center;
 }
 
+
 .footerSubscribe h3,
 .footerSubscribe p,
 .footerSubscribe form{
     text-align: right;
 }
 
+.footerSubscribe input{
+text-indent: 1rem;   
+height: 40px;
+margin: 0;
+
+}
+
+.footerSubscribe form{
+    display: flex;
+}
+
+
+.footerSubscribe i{
+    background-color: $primaryAccent;
+    color: black;
+    font-size: 1rem;
+    width:40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 .footerContact i{
     padding-right: 1vw;
 }

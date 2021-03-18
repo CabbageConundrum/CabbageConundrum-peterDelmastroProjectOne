@@ -12,7 +12,7 @@ h1{
 .articleContainer {
     display: flex;
     flex-direction: column;
-    border: 2px solid red;
+
 }
 
 .blogheader{
@@ -24,10 +24,6 @@ h1{
 
 }
 
-.headline{
-    border: 1px solid blue;
-    
-}
 
 .authorImage img{
     border-radius: 50%;
@@ -46,7 +42,7 @@ h1{
 
 .facts{
     display: flex;
-    border: 1px solid blue;
+  
     border-bottom: 1px solid black;
     padding: 35px 0;
     justify-content: space-between;
@@ -77,9 +73,7 @@ td{
     padding-right:80px;
 }
 
-.articleMain {
-    border: 1px solid blue;
-}
+
 
 span{
     font-weight: bold;
@@ -96,24 +90,19 @@ span{
 }
 
 .relatedPosts{
-    border: 2px solid blue;
+ 
 }
 
 
-
-.relatedContainer{
-  
-    
-}
 
 .relatedHeadline{
-    border: 1px solid red;
+
     padding: 40px 0;
 }
 
 .relatedImages{
     display: flex;
-    border: 1px solid red;
+ 
     justify-content: space-between;
     
 }
@@ -125,19 +114,16 @@ span{
 
     .readHeadline{
         padding: 30px 0;
-        border: 2px solid blue;
+
     }
 
        .readComment
        {
            display: flex;
-        border: 2px solid blue;
+     
         line-height: 18px;
        }
-       .imgContainer{
-        border: 2px solid blue;
-        
-       }
+   
 
        .postHeadline{
             padding: 40px 0;
@@ -160,10 +146,7 @@ span{
        }
 
 
-               .readComment .textContainer{
-                   background: #F6F6F6;
-                border: 2px solid blue;
-               }
+          
 
                input{
                    border: hidden;
