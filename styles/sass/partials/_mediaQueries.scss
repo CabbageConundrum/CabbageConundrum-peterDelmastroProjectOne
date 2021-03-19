@@ -27,6 +27,10 @@ nav{
         height: 100vh;
     }
 
+    .homeBranding{
+        height: 120vh;
+    }
+
     .homeIcons{
         height: 300vh;
     }
@@ -51,6 +55,18 @@ nav{
        
     }
 
+    .homeBranding .textContainer{
+        flex-direction: column;
+    }
+
+    .screen a{
+        color: white;
+    }
+
+    .blog .logo{
+        color: white;
+    }
+
     .homeTeam .imgContainer{
        width: 100%;
     }
@@ -64,7 +80,30 @@ nav{
     }
         .droplineRight{
             width: 0;
-        }   
+        }  
+        
+        .article h1{
+            line-height: 40px;
+        }
+        .author table{
+            display: table;
+        }
+
+        .relatedImages{
+            flex-direction: column;
+        }
+        .theTeamImages .textContainer{
+            width: 100%;
+        }
+
+        .contactDetailsIcons{
+            text-align: center;
+            flex-direction: column;
+        }
+
+        table{
+            display: none;
+        }
 
         .footerContainer{
             flex-direction: column;

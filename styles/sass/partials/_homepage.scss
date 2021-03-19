@@ -1,238 +1,193 @@
-
-.home{
+.home {
     background-image: url("../images/home-1.jpeg");
-    background-size:cover;
+    background-size: cover;
     background-position: center;
     height: 90vh;
-
-}
-
-.homeBranding{
+  }
+  
+  .homeBranding {
     display: flex;
     align-items: center;
-    background-color: #C3DAB7;
+    background-color: #c3dab7;
     height: 65vh;
     justify-content: center;
-}
-
-.homeBranding .flexContainer{
+  }
+  
+  .homeBranding .flexContainer {
     display: flex;
     flex-direction: column;
- 
     justify-content: center;
     align-items: center;
     position: relative;
-   
-
-}
-.homeBranding .imageContainer{
+  }
+  .homeBranding .imageContainer {
     display: flex;
-
     justify-content: center;
-}
-
-.homeBranding img{
+  }
+  
+  .homeBranding img {
     height: 200px;
-   
-}
-
-
-
-.stamp{
-
-}
-
-.stamp img{
+  }
+  
+  .stamp img {
     height: 165px;
-    
-position: absolute;
-left: 0;
-top: 0;
-right: 0;
-bottom: 0;
-}
-
-.homeBranding .textContainer{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .homeBranding .textContainer {
     display: flex;
     text-align: center;
- 
-}
-
-.homeTurnstile {
+    margin: 30px;
+  }
+  
+  .branding,
+  .design {
+    padding: 0 100px;
+  }
+  
+  .homeTurnstile {
     height: 65vh;
     display: flex;
-
     justify-content: center;
-}
-.homeTurnstile .flexContainer{
+  }
+  .homeTurnstile .flexContainer {
     display: flex;
-align-items: center;
-justify-content: center;
-
-flex-direction: column;
-width: 55%;
-}
-
-.homeTurnstile img{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 55%;
+  }
+  
+  .homeTurnstile img {
     border-radius: 50%;
-
-}
-.homeTurnstile .textContainer{
+  }
+  .homeTurnstile .textContainer {
     flex-wrap: wrap;
     display: flex;
-   
     text-align: center;
-}
-.homeIcons{
+  }
+  .homeIcons {
     background-image: url("../images/home-4.jpeg");
     display: flex;
     justify-content: end;
     height: 80vh;
- 
+  
     align-items: center;
-}
-
-.iconsContainer{
+  }
+  
+  .iconsContainer {
     display: flex;
     justify-content: flex-end;
-
     max-height: 100%;
-   
+  }
   
-}
-
-.homeIcons .flexContainer{
+  .homeIcons .flexContainer {
     display: flex;
-
     width: 50%;
     flex-wrap: wrap;
     height: 80%;
-    
-
-}
-
-.homeBranding{
-
-}
-
-.iconsContainer i{
+  }
+  
+  .iconsContainer i {
     padding: 1rem;
-}
-
-.iconsContainer h3{
+  }
+  
+  .iconsContainer h3 {
     margin: 0;
-}
-
-
-.iconFeature{
+  }
+  
+  .iconFeature {
     display: flex;
- 
+  
     width: 50%;
     height: 155px;
     justify-content: center;
     align-items: center;
-}
-.homeIcon i{
+  }
+  .homeIcon i {
     font-size: 2rem;
-
-}
-
-.iconFeature .textContainer{
+  }
+  
+  .iconFeature .textContainer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+  }
   
-}
-
-
-
-.homeTeam .flexContainer{
+  .homeTeam .flexContainer {
     display: flex;
-  
-   margin: 80px 0;
- 
+    margin: 80px 0;
     flex-direction: column;
-}
-
-.teamTitle{
- 
+  }
+  
+  .teamTitle {
     text-align: center;
- 
     margin: 20px;
-}
-
-.theTeamImages{
-
+  }
+  
+  .theTeamImages {
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
- 
-    
-}
-
-
-
-.theTeamImages .textContainer{
-    width:50%;
-   
+  }
+  
+  .theTeamImages .textContainer {
+    width: 50%;
     padding: 20px;
     margin: 10px;
     background-color: lightgrey;
-}
-
-
-.theTeamImages .imgContainer{
+  }
+  
+  .theTeamImages .imgContainer {
     margin: 10px;
     width: 15vw;
- 
-}
-
-.work{
+  }
+  
+  .work {
     display: flex;
-
     width: 15vw;
     margin: 10px;
     text-align: center;
     align-items: center;
-}
-
-.homeDropline{
+  }
+  
+  .homeDropline {
     height: 80vh;
-}
-
-.homeDropline .flexContainer{
-display: flex;
-height: 100%;
-}
-
-
-.droplineLeft{
-    background-color: #C3DAB7;
+  }
+  
+  .homeDropline .flexContainer {
+    display: flex;
+    height: 100%;
+  }
+  
+  .droplineLeft {
+    background-color: #c3dab7;
     width: 50%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.droplineLeft .textContainer{   
+  }
+  
+  .droplineLeft .textContainer {
     text-align: center;
     width: 50%;
-}
-
-
-
-.button {
-display: inline-block;
-    background-color: #F6F6F6;
+  }
+  
+  .button {
+    display: inline-block;
+    background-color: #f6f6f6;
     padding: 20px;
- 
     text-align: center;
     font-size: 0.7rem;
-}
-
-.droplineRight{
+  }
+  
+  .droplineRight {
     background-image: url("../images/home-10.jpeg");
     width: 50%;
-    
-}
+  }
+  
