@@ -17,37 +17,55 @@ const turnstileItems = [
 const chevronOne = document.getElementById('chevronOne');
 const chevronTwo = document.getElementById('chevronTwo');
 
-const searchIcon = document.getElementById('magnifyingGlass');
 
   
 
 //function to handle turning left
 chevronOne.addEventListener('click', function (e) {
-   
-    e.preventDefault();
-    console.log(" left clicked");
-    turnstileCounter--;
-    if (turnstileCounter === -1) {
-        turnstileCounter = 2;
-    }
-    shownImage = turnstileItems[turnstileCounter];
-   document.getElementById('tstImage').src = shownImage; 
-  console.log(shownImage);
+        e.preventDefault();
+        turnstileCounter--;
+        if (turnstileCounter === -1) {
+            turnstileCounter = 2;
+        }
+        shownImage = turnstileItems[turnstileCounter];
+    document.getElementById('tstImage').src = shownImage; 
 })
 
 //function to handle turning right
 chevronTwo.addEventListener('click', function (e) {
     e.preventDefault();
-    console.log("right clicked");
     turnstileCounter++;
     if (turnstileCounter === 3) {
         turnstileCounter = 0;
     }
-   
-    
     shownImage = turnstileItems[turnstileCounter];
      document.getElementById('tstImage').src = shownImage; 
-    console.log(shownImage);
 
-    
+
+
+})  
+
+
+
+const searchIcon = document.getElementById('magnifyingGlass');
+
+searchIcon.addEventListener('click', function (e) {
+    e.preventDefault();
+    console.log(clicked);
 })
+   
+            const searchELementSwitch = 
+                `<form>
+                    <label for = "email" class = "visuallyHidden">Enter your email</label>
+                    <input type = "email" id = "email" name = "email" placeholder="Enter your email">
+                    <a href = "#"><i class="fas fa-search"></i></a>
+                </form>`;
+
+            const menuElementSwitch = 
+                `<ul>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="contactPage.html">Contact</a></li>
+                    <li><a id = magnifyingGlass href="#"><i class="fas fa-search"></i></a></li>
+                    <li><a href="#"><i class="fas fa-lock"></i></a></li>
+                </ul>`;
+
