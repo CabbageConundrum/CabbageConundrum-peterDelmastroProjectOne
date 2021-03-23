@@ -47,11 +47,11 @@ chevronTwo.addEventListener('click', function (e) {
 
 
 
-const searchIcon = document.getElementById('magnifyingGlass');
+const searchIcon = document.getElementById("magnifyingGlass");
 
 searchIcon.addEventListener('click', function (e) {
     e.preventDefault();
-    console.log(clicked);
+    console.log("clicked");
 })
    
             const searchELementSwitch = 
