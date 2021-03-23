@@ -1,76 +1,69 @@
-
-
-footer{
+footer {
     background: #333333;
     color: white;
-}
-
-.footerContainer{
+  }
+  
+  .footerContainer {
     display: flex;
     justify-content: space-between;
     padding: 90px 0;
-}
-
-footer a{
+  }
+  
+  footer a {
     color: white;
-}
-
-footer h3{
+  }
+  
+  footer h3 {
     text-transform: uppercase;
-    font-weight:normal;
-}
-
-.footerRecent{
+    font-weight: normal;
+  }
+  
+  .footerRecent {
     margin: 0 30px;
-}
-
-.footerRecent ul{
-    list-style-type:disc;
-}
-
-
-.footerRecent h3{
+  }
+  
+  .footerRecent ul {
+    list-style-type: disc;
+  }
+  
+  .footerRecent h3 {
     text-align: center;
-}
-
-
-.footerSubscribe h3,
-.footerSubscribe p,
-.footerSubscribe form{
+  }
+  
+  .footerSubscribe h3,
+  .footerSubscribe p,
+  .footerSubscribe form {
     text-align: right;
-}
-
-.footerSubscribe input{
-text-indent: 1rem;   
-height: 40px;
-margin: 0;
-
-}
-
-.footerSubscribe form{
+  }
+  
+  .footerSubscribe input {
+    text-indent: 1rem;
+    height: 40px;
+    margin: 0;
+  }
+  
+  .footerSubscribe form {
     display: flex;
-}
-
-
-.footerSubscribe i{
-    background-color: $primaryAccent;
+  }
+  
+  .footerSubscribe i {
+    background-color: $primaryColour;
     color: black;
     font-size: 1rem;
-    width:40px;
+    width: 40px;
     height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-
-}
-.footerContact i{
+  }
+  .footerContact i {
     padding-right: 1vw;
-}
-
-footer .logo{
+  }
+  
+  footer .logo {
     text-transform: uppercase;
     padding: 60px 0;
     text-align: center;
     border-top: 1px solid grey;
- 
-}
+  }
+  

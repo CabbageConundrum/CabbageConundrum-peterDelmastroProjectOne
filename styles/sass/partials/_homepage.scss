@@ -48,7 +48,9 @@
   .design {
     padding: 0 100px;
   }
-  
+
+  //////////CAROUSEL SECTION/////////////////
+
   .homeTurnstile {
     height: 65vh;
     display: flex;
@@ -58,8 +60,26 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
     width: 55%;
+    margin: 8vw;
+  
+  }
+
+  .homeTurnstile .imageContainer{
+    display: flex;
+    justify-content: center;
+      height: 35vh;
+  }
+
+  .chevron{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+  }
+
+  .chevron:hover{
+    color: grey;
+    cursor: pointer;
   }
   
   .homeTurnstile img {
@@ -70,6 +90,8 @@
     display: flex;
     text-align: center;
   }
+
+  /////////////////////////////////////
   .homeIcons {
     background-image: url("../images/home-4.jpeg");
     display: flex;

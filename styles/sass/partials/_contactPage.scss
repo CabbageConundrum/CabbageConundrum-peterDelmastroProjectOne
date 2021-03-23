@@ -1,52 +1,37 @@
-
-
-
-.contactDetailsIcons{
-display: flex;
-justify-content: space-around;
-}
-
-.headerImage{
-  background-image: url("../images/contact-1.jpeg"); 
-  background-size:cover;
-  background-position: center;
-  height: 30vh;
-   
-}
-
-
-.contactHeadline{
+.contactDetailsIcons {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .headerImage {
+    background-image: url("../images/contact-1.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+  }
+  
+  .contactHeadline {
     margin-top: -70px;
- 
-}
-
-.contactHeadline h1{
-   margin: 15px 0;
+  }
   
-}
-.contactDetails{
+  .contactHeadline h1 {
+    margin: 15px 0;
+  }
+  .contactDetails {
     margin: 50px 0;
- 
-}
-.contactDetails h3{
+  }
+  .contactDetails h3 {
     text-transform: uppercase;
-  
-}
-.contactDetailsIcons{
+  }
+  .contactDetailsIcons {
     margin: 50px 0;
-    
-   
-}
-
-.contactDetailsIcons i{
-
+  }
+  
+  .contactDetailsIcons i {
     font-size: 2rem;
-}
-
-
-.contactGetinTouch{
+  }
+  
+  .contactGetinTouch {
     margin: 100px 0;
-
-}
-
-
+  }
+  

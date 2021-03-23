@@ -10,9 +10,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/276b65d818.js" crossorigin="anonymous"></script>
+  
 </head>
 
 <body>
+ 
   <header class=home>
     <div class="wrapper">
       <nav>
@@ -27,13 +29,14 @@
         <ul>
           <li><a href="#">Shop</a></li>
           <li><a href="contactPage.html">Contact</a></li>
-          <li><a href="#"><i class="fas fa-search"></i></a></li>
+          <li><a id = magnifyingGlass href="#"><i class="fas fa-search"></i></a></li>
           <li><a href="#"><i class="fas fa-lock"></i></a></li>
         </ul>
       </nav>
     </div>
 
   </header>
+  <!-- /////////////BRANDING SECTION////////////////// -->
   <main>
     <section class="homeBranding">
       <div class="flexContainer">
@@ -43,7 +46,6 @@
         <div class="imageContainer">
           <img src="images/home-2.jpeg" alt="A desk with two plants and a computer, under a stylized wall calendar">
         </div>
-
         <div class="textContainer">
           <div class="branding">
             <h3>Branding</h3>
@@ -56,16 +58,24 @@
         </div>
       </div>
     </section>
+  <!-- ////////////CAROUSEL SECTION//////////////////////// -->
     <section class="homeTurnstile">
+      <button id = "chevronOne" class="chevron"><i class="fas fa-chevron-left"></i></button>
       <div class="flexContainer">
+      
+        <div class="panel">
         <div class="imageContainer">
-          <img src="images/home-3.jpeg" alt="Layout design of a page with a text and a photo of a shirtless man">
+          <img id = tstImage src="images/home-3.jpeg" alt="Layout design of a page with a text and a photo of a shirtless man">
         </div>
         <div class="textContainer">
           <p><em>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis ipsa, dolor aut iusto aspernatur fugit omnis doloribus ipsum possimus tenetur similique cumque magni provident sit quo. Sequi autem veritatis reiciendis dicta! Odit harum unde animi temporibus, voluptatibus explicabo aspernatur dicta iure excepturi minus vero culpa, corporis porro libero doloribus totam.</em></p>
         </div>
       </div>
+        
+      </div>
+      <button id = "chevronTwo" class="chevron"><i class="fas fa-chevron-right"></i></button>
     </section>
+    <!-- /////////////ICONS SECTION////////////////// -->
     <section class="homeIcons">
       <div class="wrapper">
         <div class="iconsContainer">
@@ -223,6 +233,7 @@
     </div>
     <div class="logo">Creative Agency</div>
   </footer>
+  <script src = script.js></script>
 </body>
 
 </html>

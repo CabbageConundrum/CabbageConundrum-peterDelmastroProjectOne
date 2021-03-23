@@ -1,187 +1,160 @@
-h1{
+h1 {
     font-weight: bold;
     text-transform: uppercase;
     font-size: 1.85rem;
     letter-spacing: 0.9px;
-}
-
-.article {
+  }
+  
+  .article {
     margin-top: 55px;
-}
-
-.articleContainer {
+  }
+  
+  .articleContainer {
     display: flex;
     flex-direction: column;
-
-}
-
-.blogheader{
+  }
+  
+  .blogheader {
     background: url("../images/blog-1.jpeg");
     height: 100vh;
-    background-size:cover;
+    background-size: cover;
     background-position: center;
-   
-
-}
-
-
-.authorImage img{
+  }
+  
+  .authorImage img {
     border-radius: 50%;
     height: 65px;
     margin-right: 20px;
-}
-
-.headline h1{
+  }
+  
+  .headline h1 {
     margin: 20px;
     text-align: center;
-}
-
-.headline a{
+  }
+  
+  .headline a {
     color: grey;
-}
-
-.facts{
+  }
+  
+  .facts {
     display: flex;
   
     border-bottom: 1px solid black;
     padding: 35px 0;
     justify-content: space-between;
-    
-}
-
-.author {
+  }
+  
+  .author {
     display: flex;
-   
+  
     align-items: center;
-}
-
-.authorImage{
+  }
+  
+  .authorImage {
     display: flex;
-}
-
-th{
+  }
+  
+  th {
     text-align: left;
     text-transform: uppercase;
-    font-family: 'montserrat', sans-serif;
-}
-
-td:last-of-type{
+    font-family: "montserrat", sans-serif;
+  }
+  
+  td:last-of-type {
     padding-right: 0px;
-}
-
-td{
-    padding-right:80px;
-}
-
-
-
-span{
+  }
+  
+  td {
+    padding-right: 80px;
+  }
+  
+  span {
     font-weight: bold;
-}
-
-.share{
+  }
+  
+  .share {
     display: flex;
-    
+  
     align-items: center;
-}
-
-.share li{
+  }
+  
+  .share li {
     display: inline;
-}
-
-.relatedPosts{
- 
-}
-
-
-
-.relatedHeadline{
-
+  }
+  
+  .relatedHeadline {
     padding: 40px 0;
-}
-
-.relatedImages{
+  }
+  
+  .relatedImages {
     display: flex;
- 
+  
     justify-content: space-between;
-    
-}
-
-.readComment .textContainer{
+  }
+  
+  .readComment .textContainer {
     margin-left: 35px;
-}
-
-
-    .readHeadline{
-        padding: 30px 0;
-
-    }
-
-       .readComment
-       {
-           display: flex;
-     
-        line-height: 18px;
-       }
-   
-
-       .postHeadline{
-            padding: 40px 0;
-            border-bottom: 1px solid lightgray;
-       }
-
-   
-       .personalInfoForm{
-         
-        padding: 20px 0;
-           display: flex;
-           justify-content: space-between;
-       }
-
-       input{
-        margin-right: 2vw;
-           padding-right: 11vw;
-           border-bottom: 1px transparent lightgray;
-           
-       }
-
-
-          
-
-               input{
-                   border: hidden;
-               }
-
-               .postContainer{
-                   padding-bottom: 100px;
-               }
-
-               textarea{
-                   resize: none;
-                   width: 75vw;
-                   border-color: transparent;
-                   border-bottom: 1px solid grey;
-                   margin-bottom: 40px;
-               }
-              input:focus,
-               input:active,
-               textarea:active,
-               textarea:focus {
-                 outline: none;
-                 border-color: transparent;
-                  border-bottom: 1px solid grey;
-               }
-
-               button{
-                   text-transform: uppercase;
-               font-weight: bold;
-                outline: none;
-                border-color: transparent;
-                 border-bottom: 1px solid grey;
-                 background-color: white;
-                 line-height: 24px;
-               letter-spacing: 0.7px;
-               }
-
-            
-          
+  }
+  
+  .readHeadline {
+    padding: 30px 0;
+  }
+  
+  .readComment {
+    display: flex;
+  
+    line-height: 18px;
+  }
+  
+  .postHeadline {
+    padding: 40px 0;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  .personalInfoForm {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  input {
+    margin-right: 2vw;
+    padding-right: 11vw;
+    border-bottom: 1px transparent lightgray;
+  }
+  
+  input {
+    border: hidden;
+  }
+  
+  .postContainer {
+    padding-bottom: 100px;
+  }
+  
+  textarea {
+    resize: none;
+    width: 75vw;
+    border-color: transparent;
+    border-bottom: 1px solid grey;
+    margin-bottom: 40px;
+  }
+  input:focus,
+  input:active,
+  textarea:active,
+  textarea:focus {
+    outline: none;
+    border-color: transparent;
+    border-bottom: 1px solid grey;
+  }
+  
+  button {
+    text-transform: uppercase;
+    font-weight: bold;
+    outline: none;
+    border-color: transparent;
+    border-bottom: 1px solid grey;
+    background-color: white;
+    line-height: 24px;
+    letter-spacing: 0.7px;
+  }
+  
