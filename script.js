@@ -51,13 +51,3 @@ chevronTwo.addEventListener('click', function (e) {
 
     
 })
-// get the image element
-
-
-
-//  turnstileItems[turnstileCounter];
-
-
-
-
-//on click, change the image. play and animation as it comes into frame
